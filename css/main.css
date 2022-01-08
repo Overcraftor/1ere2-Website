@@ -1,0 +1,83 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-family: 'Roboto Slab', serif;
+    color: #616577;
+    font-size: 60px;
+}
+
+.subtitle {
+    font-family: 'Roboto Slab', serif;
+    color: #616577;
+    font-size: 25px;
+}
+
+.navbar-text {
+    font-family: 'Roboto Slab', serif;
+    color: #616577;
+    font-size: 30px;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    color: #616577;
+    font-size: 20px;
+}
+
+.white {
+    color: #FFF;
+}
+
+.dark {
+    color: rgba(0, 0, 0);
+}
+
+.link {
+    color: #2abdbc;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+body.bodyfix {
+    overflow: hidden;
+}
+
+div.flex {
+    display: flex !important;
+}
+
+#filter {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+    background-color: aliceblue;
+    max-height: calc(100vh - 20px);
+    max-width: 700px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.popup h2, .popup a {
+    text-align: center;
+}

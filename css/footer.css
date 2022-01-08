@@ -1,0 +1,60 @@
+footer {
+    background-color: #2F3640;
+    padding: 20px 0 20px 0;
+}
+
+/* FOOTER COPYRIGHT, HR AND AUTHOR */
+
+#footer-copyright {
+    margin: 0 20px 0 20px;
+}
+
+#footer-copyright p {
+    margin: 0 10px 0 10px;
+}
+
+#footer-copyright div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-copyright hr {
+    color: #5fb16b;
+    background-color: #5fb16b;
+    border: none;
+    height: 2px;
+}
+
+/* FOOTER CONTACT AND LINKS */
+
+#footer-contact-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto auto 10px auto;
+    max-width: 600px;
+}
+
+footer > #footer-contact-links > div {
+    margin: 0 20px 0 20px;
+    display: inline-block;
+}
+
+footer > #footer-contact-links > div > *{
+    display: block;
+}
+
+footer ul {
+    margin-top: 0;
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+#footer-contact-links a i{
+    font-size: 20px;
+    color: #6cf0ee;
+}
+
