@@ -40,7 +40,7 @@ footer > #footer-contact-links > div {
     display: inline-block;
 }
 
-footer > #footer-contact-links > div > *{
+footer > #footer-contact-links > div > * {
     display: block;
 }
 
