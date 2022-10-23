@@ -5,6 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     margin: 0;
     padding: 0;
+    background-color: #e2ffe7;
 }
 
 .title {
@@ -19,7 +20,7 @@ body {
     font-size: 25px;
 }
 
-.navbar-text {
+.navbar-text a {
     font-family: 'Roboto Slab', serif;
     color: #616577;
     font-size: 30px;

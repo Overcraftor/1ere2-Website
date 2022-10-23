@@ -9,6 +9,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
 <!-- css link -->
-<link rel="stylesheet" type="text/css" href="css/header.css?v=0.04">
-<link rel="stylesheet" type="text/css" href="css/footer.css?v=0.04">
-<link rel="stylesheet" type="text/css" href="css/main.css?v=0.04">
+<link rel="stylesheet" type="text/css" href="css/header.css?v=0.12">
+<link rel="stylesheet" type="text/css" href="css/footer.css?v=0.12">
+<link rel="stylesheet" type="text/css" href="css/main.css?v=0.12">

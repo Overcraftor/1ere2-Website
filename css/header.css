@@ -1,0 +1,156 @@
+#logo {
+    width: 100px;
+    height: auto;
+    border-radius: 25px;
+}
+
+#logo-h1 {
+    justify-items: self-start;
+    display: flex;
+    align-items: center;
+    margin-left: 7vw;
+}
+
+h1 {
+    margin: 0 0 0 10vw;
+    font-weight: normal;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20vw;
+    height: 150px;
+    background-color: #C3FFCB;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+#menu-btn {
+    display: none;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1100px) {
+
+    header nav {
+        height: 100%;
+        width: 50vw;
+    }
+
+    header nav a {
+        text-decoration: none;
+        white-space: nowrap;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.25s ease-out;
+    }
+
+    header nav a:hover {
+        background-color: #A8FCB3;
+    }
+
+    header nav ul li {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav ul {
+        padding: 0;
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* MOBILE 2 */
+@media only screen and (max-width: 475px) {
+    #title {
+        font-size: 45px;
+    }
+
+    #logo {
+        width: 75px;
+    }
+
+    header {
+        height: 120px;
+    }
+}
+
+/* MOBILE */
+@media only screen and (max-width: 1100px) {
+    header nav {
+        display: none;
+        overflow: hidden;
+    }
+
+    header {
+        justify-content: center;
+    }
+
+    #menu-btn {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+        margin-right: 40px;
+    }
+
+    #burger-menu {
+        width: 50px;
+        height: 6px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 255, 0.2);
+        transition: all 0.5s ease-in-out;
+    }
+
+    #burger-menu::before,
+    #burger-menu::after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 6px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 255, 0.2);
+        transition: all 0.5s ease-in-out;
+    }
+
+    #burger-menu::before {
+        transform: translateY(-16px);
+    }
+
+    #burger-menu::after {
+        transform: translateY(16px);
+    }
+
+    /* BURGER ANIMATION */
+    #menu-btn.open #burger-menu {
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+    }
+
+    #menu-btn.open #burger-menu::before {
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+
+    #menu-btn.open #burger-menu::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+}

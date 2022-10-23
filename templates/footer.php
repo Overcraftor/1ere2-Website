@@ -12,7 +12,7 @@
     </div>
     <div id="links">
         <h3 class="subtitle white">Liens</h3>
-        <a class="text link" href="https://github.com/Overcraftor/2nd2-Website" target="_blank">
+        <a class="text link" href="https://github.com/Overcraftor/2nd2-Website/tree/dev" target="_blank">
             <i class="fab fa-github"></i>&nbsp;&nbsp;
             <span>Dépôt Github</span>
         </a>
